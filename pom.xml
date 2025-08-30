@@ -79,5 +79,12 @@
           <version>RELEASE</version>
           <scope>provided</scope>
       </dependency>
+         <dependency>
+           <groupId>com.softhub</groupId>
+           <artifactId>soft-framework</artifactId>
+           <version>1.0.1</version>
+           <scope>system</scope>
+           <systemPath>${project.basedir}/libs/soft-framework-1.0.1.jar</systemPath>
+         </dependency>
   </dependencies>
 </project>
