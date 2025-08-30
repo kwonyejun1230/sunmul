@@ -58,6 +58,10 @@
           <id>sonatype</id>
           <url>https://oss.sonatype.org/content/groups/public/</url>
       </repository>
+      <repository>
+          <id>jitpack.io</id>
+          <url>https://jitpack.io</url>
+      </repository>
   </repositories>
 
   <dependencies>
@@ -79,12 +83,10 @@
           <version>RELEASE</version>
           <scope>provided</scope>
       </dependency>
-         <dependency>
-           <groupId>com.softhub</groupId>
+      <dependency>
+           <groupId>com.github.MCFlowStudio</groupId>
            <artifactId>soft-framework</artifactId>
-           <version>1.0.1</version>
-           <scope>system</scope>
-           <systemPath>${project.basedir}/libs/soft-framework-1.0.1.jar</systemPath>
-         </dependency>
+           <version>fix: 명령어 도움말 오류 수정</version>
+      </dependency>
   </dependencies>
 </project>
